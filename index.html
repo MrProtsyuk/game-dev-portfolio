@@ -10,30 +10,39 @@
     <script defer src="app.js"></script>
 </head>
 <body>
-    <section class="home">
+    <section id="hidden" class="home">
         <div>
             <h1>Mark Protsyuk</h1>
+            <h2>Software Engineer</h2>
             <ul class="links">
-                <li>LinkedIn</li>
-                <li>Instagram</li>
-                <li>Resume</li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/markprotsyuk/">LinkedIn</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/mark.protsyuk/">Instagram</a></li>
+                <li><a target="_blank" href="/index.html">Resume</a></li>
             </ul>
-            <p>Software Engineer</p>
-            <p>Scroll on down... ⬇️</p>
+            <ul class="words">
+                <li>Scroll</li>
+                <li>on</li>
+                <li>down...</li>
+                <li>⬇️</li>
+            </ul>
         </div>
     </section>
 
-    <section class="about">
+    <section id="hidden" class="about">
         <h2>A little bit about me</h2>
-        <div>
-            <img />
-        </div>
-        <div>
-            <!-- about me content -->
+        <div class="about-content">
+            <div>
+                <img src="./images/about.JPEG" />
+            </div>
+            <div class="about-text">
+                <p>Hey there! My name is Mark Protsyuk and I have been a dev for about 2 years now. I started my journey back in 2020, when I took a web development class in community college. Since then, I have graduated from the UC Davis coding bootcamp and have been teaching myself development skills as well as being mentored by fellow peers. I started my journey as a web developer, specializing in NextJS and Apollo GraphQL but recently I began to learn C++ and Unreal Engine 5 because I have always dreamed of getting into game development.</p>
+            </br> 
+                <p>Besides programing, I enjoy playing the guitar 🎸, bouldering 🧗, snowboarding 🏂, and creating art 🎨. I have always been someone who was able to pick things up pretty quickly and get good at them. Down below you will see my journey as developer, I was unable to find the projects I had made in college but you will be able to find my recent ones! </p>
+            </div>
         </div>
     </section>
 
-    <section class="work">
+    <section id="hidden" class="work">
         <h2>A little bit of what I know</h2>
         <div class="projects">
             <!-- Davis Certification -->
@@ -88,13 +97,13 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section id="hidden" class="contact">
         <h2>Lets get in touch</h2>
         <div>
             <form>
-                <input />
-                <input />
-                <input />
+                <input placeholder="Your Name 🫵" />
+                <input placeholder="Your Email ✉️" />
+                <textarea placeholder="Leave a message... ✍️"></textarea>
                 <button>Send ✈️</button>
             </form>
 
