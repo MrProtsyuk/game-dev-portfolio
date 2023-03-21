@@ -137,6 +137,10 @@ h1 {
     box-shadow: 4px 4px 10px #000;
 }
 
+#about a {
+    text-decoration: none;
+}
+
 /* work styles */
 #work {
     background-image: url("./images/layered-waves-haikei.svg");
@@ -144,6 +148,10 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10;
+}
+
+#work a {
+    text-decoration: none;
 }
 
 .projects {
@@ -166,9 +174,19 @@ h1 {
 .projects img {
     width: 300px;
     height: 175px;
-    margin: 8px;
+    margin: 6px;
     border: #202731;
     border-radius: 6px;
+}
+
+.projects h3 {
+    padding: 0px;
+    margin: 4px;
+}
+
+.projects p {
+    margin: 2px;
+    padding: 2px;
 }
 
 /* contact styles */
@@ -255,3 +273,145 @@ h1 {
 .end a:hover {
     color: antiquewhite;
 }
+
+@media screen and (max-width: 1024px) {
+    #about img {
+        width: 300px;
+        height: 450px;
+        border: transparent;
+        border-radius: 4px;
+        margin: 4px;
+        box-shadow: 4px 4px 10px #000;
+    
+    }
+    
+    .about-text {
+        color: #202731;
+        background-color: antiquewhite;
+        height: 500px;
+        width: 600px;
+        padding: 8px;
+        margin: 4px;
+        border: transparent;
+        border-radius: 4px;
+        box-shadow: 4px 4px 10px #000;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #about img {
+        width: 250px;
+        height: 375px;
+        border: transparent;
+        border-radius: 4px;
+        margin: 4px;
+        box-shadow: 4px 4px 10px #000;
+    
+    }
+    
+    .about-text {
+        color: #202731;
+        background-color: antiquewhite;
+        height: 500px;
+        width: 550px;
+        padding: 8px;
+        margin: 4px;
+        border: transparent;
+        border-radius: 4px;
+        box-shadow: 4px 4px 10px #000;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .titles {
+        display: inline;
+        font-size: 20px;
+        width: 300px;
+    }
+
+    #about img {
+        width: 250px;
+        height: 375px;
+        border: transparent;
+        border-radius: 4px;
+        margin: 4px;
+        box-shadow: 4px 4px 10px #000;
+    
+    }
+
+    .about-text {
+        color: #202731;
+        background-color: antiquewhite;
+        height: 800px;
+        width: 300px;
+        padding: 8px;
+        margin: 4px;
+        border: transparent;
+        border-radius: 4px;
+        box-shadow: 4px 4px 10px #000;
+    }
+
+    .projects div {
+        background-color: antiquewhite;
+        color: #202731;
+        width: 300px;
+        height: 300px;
+        margin: 8px;
+        padding: 8px;
+        border-radius: 6px;
+    }
+    
+    .projects img {
+        width: 300px;
+        height: 175px;
+        margin: 0px;
+        border: #202731;
+        border-radius: 6px;
+    }
+
+    .formy {
+        background-color: antiquewhite;
+        color: #202731;
+        width: 300px;
+        border-color: #202731;
+        border-radius: 6px;
+        box-shadow: 4px 4px 10px #000;
+    }
+
+    #contact input {
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        border-color: #202731;
+        border-radius: 6px;
+    
+    }
+    
+    #contact textarea {
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+        border-color: #202731;
+        border-radius: 6px;
+    }
+
+    .end {
+        background-color: rgb(240, 240, 240);
+        width: 200px;
+        padding: 5px;
+        margin: 10px;
+        border-color: #202731;
+        border-radius: 6px;
+        box-shadow: 4px 4px 10px #000;
+    }
+    
+}
+
