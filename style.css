@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: antiquewhite;
+    background: #202731;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+    background: #be346d;
+}
+
+/* home styles */
+.home {
+    background-image: url("./images/layered-waves-haikei.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10;
+}
+
+.home h1 {
+    font-size: xx-large;
+}
+
+.links {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+/* about styles */
+.about {
+    background-image: url("./images/layered-waves-haikei2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10;
+}
+
+/* work styles */
+.work {
+    background-image: url("./images/layered-waves-haikei.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10;
+}
+
+/* contact styles */
+.contact {
+    background-image: url("./images/layered-waves-haikei2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10;
+}
