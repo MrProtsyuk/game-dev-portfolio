@@ -65,6 +65,7 @@ h1 {
 .links li {
     margin: 0px 5px 0px 5px; 
     font-size: 20px;
+    transition: 350ms;
 }
 
 .links a {
@@ -77,7 +78,7 @@ h1 {
 }
 
 .links li:hover {
-    transition: 200ms linear;
+    transition: 350ms;
     margin: 0px 10px 0px 10px;
     text-shadow: 4px 4px 4px #000;
 }
@@ -98,6 +99,11 @@ h1 {
 .words a {
     text-decoration: none;
     color: antiquewhite;
+}
+
+.words a:hover {
+    opacity: 0.25;
+    transition: 500ms;
 }
 
 
@@ -140,6 +146,11 @@ h1 {
 
 #about a {
     text-decoration: none;
+}
+
+#about a:hover {
+    opacity: 0.25;
+    transition: 500ms;
 }
 
 /* work styles */

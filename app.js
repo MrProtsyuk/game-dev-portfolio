@@ -24,6 +24,7 @@ function sendMail() {
     const templateID = "template_fka4a3f";
   
       emailjs.send(serviceID, templateID, params)
+      e.preventDefault()
       .then(res=>{
           document.getElementById("name").value = "";
           document.getElementById("email").value = "";
