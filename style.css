@@ -133,6 +133,23 @@ h1 {
     background-position: 10;
 }
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects div {
+    background-color: antiquewhite;
+    color: #202731;
+    width: 300px;
+    height: 200px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
 /* contact styles */
 #contact {
     background-image: url("./images/layered-waves-haikei2.svg");
