@@ -24,7 +24,7 @@ nav {
 }
 
 /* home styles */
-.home {
+#home {
     background-image: url("./images/layered-waves-haikei.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@ h1 {
 
 
 /* about styles */
-.about {
+#about {
     background-image: url("./images/layered-waves-haikei2.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ h1 {
     justify-content: center;
 }
 
-.about img {
+#about img {
     width: 300px;
     height: 450px;
     border: transparent;
@@ -116,7 +116,7 @@ h1 {
 }
 
 /* work styles */
-.work {
+#work {
     background-image: url("./images/layered-waves-haikei.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ h1 {
 }
 
 /* contact styles */
-.contact {
+#contact {
     background-image: url("./images/layered-waves-haikei2.svg");
     background-position: center;
     background-repeat: no-repeat;
