@@ -286,7 +286,7 @@ h1 {
     color: antiquewhite;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1240px) {
     #about img {
         width: 300px;
         height: 450px;
@@ -310,7 +310,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .about-content {
         display: flex;
         flex-wrap: wrap;
@@ -341,7 +341,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) {
     .titles {
         display: inline;
         font-size: 20px;
