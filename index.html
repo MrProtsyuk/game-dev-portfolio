@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Protsyuk 🎮</title>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script defer src="app.js"></script>
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
@@ -56,11 +59,11 @@
         <h2 class="titles">A little bit of what I have worked on</h2>
         <div class="projects hidden">
             <!-- Davis Certification -->
-            <div class="project hidden">
+            <!-- <div class="project hidden">
                 <img src="./images/davis.png" alt="Davis Certification" />
                 <h3>Davis Certification</h3>
                 <p></p>
-            </div>
+            </div> -->
             <!-- WOL -->
             <a href="https://teachersource.wol.org/index.php/english-logged-in-homepage/" target="_blank">
                 <div class="project hidden">
@@ -70,13 +73,13 @@
                 </div>
             </a>
             <!-- Random Quiz -->
-            <a href="https://random-quiz-nine.vercel.app/" target="_blank">
+            <!-- <a href="https://random-quiz-nine.vercel.app/" target="_blank">
                 <div class="project hidden">
                     <img src="./images/random-quiz.png" alt="Randomized Quiz with API" />
                     <h3>Random Quiz</h3>
                     <p>Randomized quiz made with NextJS, Tailwind, and a third party API.</p>
                 </div>
-            </a>
+            </a> -->
             <!-- Chaty AI -->
             <a href="https://chaty-ai.vercel.app/" target="_blank">
                 <div class="project hidden">
@@ -86,21 +89,21 @@
                 </div>
             </a>
             <!-- Solar System Model -->
-            <a href="https://mrprotsyuk.itch.io/solarsystem" target="_blank">
+            <!-- <a href="https://mrprotsyuk.itch.io/solarsystem" target="_blank">
                 <div class="project hidden">
                     <img src="./images/unityss.png" alt="Solar System in 3D" />
                     <h3>Untiy 3D Solar System</h3>
                     <p>Made with Unity Engine and C# scripts.</p>
                 </div>
             </a>
-            <!-- 2D Shooter -->
-            <a href="https://mrprotsyuk.itch.io/2d-space-shooter" target="_blank">
+            2D Shooter -->
+            <!-- <a href="https://mrprotsyuk.itch.io/2d-space-shooter" target="_blank">
                 <div class="project hidden">
                     <img src="./images/2dshoot.png" alt="2D shooter" />
                     <h3>Unity 2D Shooter</h3>
                     <p>Made with Unity Engine and C# scripts.</p>
                 </div>
-            </a>
+            </a> -->
             <!-- Destruction Game -->
             <a href="https://mrprotsyuk.itch.io/warehouse-wrecker" target="_blank">
                 <div class="project hidden">
@@ -130,10 +133,65 @@
                 <div class="project hidden">
                     <img src="" alt="3D shooter in unreal Engine" />
                     <h3>UE5 Shooter</h3>
-                    <p>Made with Unreal Engine 5 and blueprints.</p>
+                    <p>Made with Unreal Engine 5 and C++.</p>
+                </div>
+            </a> -->
+            <!-- Personal 3D Level -->
+            <!-- <a href="" target="_blank">
+                <div class="project hidden">
+                    <img src="" alt="Jungle Explorer Level in unreal Engine" />
+                    <h3>Jungle Explorer Level</h3>
+                    <p>Made with Unreal Engine 5, C++, Quixel Assets, and blueprints. </p>
                 </div>
             </a> -->
         </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications">
+        <h2 class="titles">My Certifications</h2>
+            <!-- Davis Certification -->
+            <div class="certy hidden">
+            <a href="https://www.credly.com/badges/ad2079b6-49a0-426a-ba6b-8d42c4d5b609/linked_in_profile" target="_blank">
+                <div class="cert hidden">
+                    <img src="./images/PROTSYUK_Mark.jpg" alt="UC Davis Certification" />
+                    <h3>UC Davis Certification</h3>
+                    <p>Learned the basics of full stack development, working in a team enviornment, and version control.</p>
+                </div>
+            </a>
+            <!-- Game Dev Certification -->
+            <a href="https://www.udemy.com/certificate/UC-3871f83f-2033-48d1-b12d-56da6b79ef96/" target="_blank">
+                <div class="cert hidden">
+                    <img src="./images/udemygamedev.jpg" alt="UC Davis Certification" />
+                    <h3>Unreal Engine 5 Game Development Certification</h3>
+                    <p>Learned the basics of game development with blueprints and C++.</p>
+                </div>
+            </a>
+            <!-- Level Design Cerificaiton -->
+            <a href="https://www.udemy.com/certificate/UC-5bca9d1f-342e-4e48-aac9-def1ef2d2d48/" target="_blank">
+                <div class="cert hidden">
+                    <img src="./images/leveldesign.jpg" alt="UC Davis Certification" />
+                    <h3>Environment Design Certification</h3>
+                    <p>Learned how to design an environment in Unreal Engine 5 using Quixel assets, and marketplace assets.</p>
+                </div>
+            </a>
+            <!-- Meta front end  -->
+            <a href="https://www.coursera.org/account/accomplishments/certificate/ZXCKBZYPB3LC" target="_blank">
+                <div class="cert hidden">
+                    <img src="./images/metafrontend.jpg" alt="UC Davis Certification" />
+                    <h3>Meta Intro to Front End</h3>
+                    <p>Learned the basics of Front End Development.</p>
+                </div>
+            </a>
+            <!-- Meta Js -->
+            <a href="https://www.coursera.org/account/accomplishments/certificate/XUNFBAMXXPUA" target="_blank">
+                <div class="cert hidden">
+                    <img src="./images/metajs.jpg" alt="UC Davis Certification" />
+                    <h3>Meta Javascript Course</h3>
+                    <p>Learned the basics of Javascript</p>
+                </div>
+            </a>
+            </div>
     </section>
 
     <section id="contact">

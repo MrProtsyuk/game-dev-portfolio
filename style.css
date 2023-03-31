@@ -133,8 +133,8 @@ h1 {
 }
 
 .about-text {
-    color: #202731;
-    background-color: antiquewhite;
+    color: white;
+    background-color: #2e3643;
     height: 400px;
     width: 800px;
     padding: 8px;
@@ -174,10 +174,10 @@ h1 {
 }
 
 .projects div {
-    background-color: antiquewhite;
-    color: #202731;
+    color: white;
+    background-color: #2e3643;
     width: 400px;
-    height: 300px;
+    height: auto;
     margin: 8px;
     padding: 8px;
     border-radius: 6px;
@@ -201,8 +201,8 @@ h1 {
     padding: 2px;
 }
 
-/* contact styles */
-#contact {
+/* Certification Styles */
+#certifications {
     background-image: url("./images/layered-waves-haikei2.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -210,9 +210,58 @@ h1 {
     background-position: 10;
 }
 
+#certifications a {
+    text-decoration: none;
+}
+
+.certy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.certy div {
+    color: white;
+    background-color: #2e3643;
+    width: 400px;
+    height: auto;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.certy img {
+    width: 300px;
+    height: 200px;
+    margin: 6px;
+    border: #202731;
+    border-radius: 6px;
+}
+
+.certy h3 {
+    padding: 0px;
+    margin: 4px;
+}
+
+.certy p {
+    margin: 4px;
+    padding: 4px;
+}
+
+
+/* contact styles */
+#contact {
+    background-image: url("./images/layered-waves-haikei.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10;
+}
+
 .formy {
-    background-color: antiquewhite;
-    color: #202731;
+    color: white;
+    background-color: #2e3643;
     border-color: #202731;
     border-radius: 6px;
     box-shadow: 4px 4px 10px #000;
@@ -298,8 +347,8 @@ h1 {
     }
     
     .about-text {
-        color: #202731;
-        background-color: antiquewhite;
+        color: white;
+        background-color: #2e3643;
         height: 500px;
         width: 600px;
         padding: 8px;
@@ -329,8 +378,8 @@ h1 {
     }
     
     .about-text {
-        color: #202731;
-        background-color: antiquewhite;
+        color: white;
+        background-color: #2e3643;
         height: 500px;
         width: 550px;
         padding: 8px;
@@ -359,8 +408,8 @@ h1 {
     }
 
     .about-text {
-        color: #202731;
-        background-color: antiquewhite;
+        color: white;
+        background-color: #2e3643;
         height: 800px;
         width: 300px;
         padding: 8px;
@@ -371,26 +420,52 @@ h1 {
     }
 
     .projects div {
-        background-color: antiquewhite;
-        color: #202731;
+        color: white;
+        background-color: #2e3643;
         width: 300px;
-        height: 300px;
+        height: auto;
         margin: 8px;
         padding: 8px;
         border-radius: 6px;
     }
     
     .projects img {
-        width: 300px;
-        height: 175px;
+        width: 200px;
+        height: 125px;
         margin: 0px;
         border: #202731;
         border-radius: 6px;
     }
 
+    .projects h3 {
+        font-size: 20px;
+    }
+
+    .certy div {
+        color: white;
+        background-color: #2e3643;
+        width: 300px;
+        height: auto;
+        margin: 8px;
+        padding: 8px;
+        border-radius: 6px;
+    }
+    
+    .certy img {
+        width: 200px;
+        height: 150px;
+        margin: 0px;
+        border: #202731;
+        border-radius: 6px;
+    }
+
+    .certy h3 {
+        font-size: 20px;
+    }
+
     .formy {
-        background-color: antiquewhite;
-        color: #202731;
+        color: white;
+        background-color: #2e3643;
         width: 300px;
         border-color: #202731;
         border-radius: 6px;
