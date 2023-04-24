@@ -39,6 +39,20 @@ nav {
     background: #be346d;
 }
 
+.down {
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    margin: 10px;
+    border-color: #202731;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px #000;
+}
+
+.down:hover {
+    background-color: #202731;
+    color: antiquewhite;
+}
+
 /* home styles */
 #home {
     background-image: url("./images/layered-waves-haikei.svg");
@@ -137,7 +151,7 @@ h1 {
     background-color: #2e3643;
     height: 400px;
     width: 800px;
-    padding: 8px;
+    padding: 20px;
     margin: 4px;
     border: transparent;
     border-radius: 4px;
@@ -146,11 +160,6 @@ h1 {
 
 #about a {
     text-decoration: none;
-}
-
-#about a:hover {
-    opacity: 0.25;
-    transition: 500ms;
 }
 
 /* work styles */
@@ -181,6 +190,13 @@ h1 {
     margin: 8px;
     padding: 8px;
     border-radius: 6px;
+    border: 1px solid white;
+}
+
+.projects div:hover {
+    transition: 200ms;
+    margin: 0px 10px 0px 10px;
+    background-color: #4D5C76;
 }
 
 .projects img {
@@ -229,6 +245,13 @@ h1 {
     margin: 8px;
     padding: 8px;
     border-radius: 6px;
+    border: 1px solid white;
+}
+
+.certy div:hover {
+    transition: 200ms;
+    margin: 0px 10px 0px 10px;
+    background-color: #4D5C76;
 }
 
 .certy img {
@@ -304,6 +327,7 @@ h1 {
 #contact button:hover {
     background-color: #202731;
     color: antiquewhite;
+    cursor: pointer;
 }
 
 .end {
