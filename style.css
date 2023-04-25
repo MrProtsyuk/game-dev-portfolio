@@ -194,8 +194,7 @@ h1 {
 }
 
 .projects div:hover {
-    transition: 200ms;
-    margin: 0px 10px 0px 10px;
+    transition: 300ms;
     background-color: #4D5C76;
 }
 
@@ -249,8 +248,7 @@ h1 {
 }
 
 .certy div:hover {
-    transition: 200ms;
-    margin: 0px 10px 0px 10px;
+    transition: 300ms;
     background-color: #4D5C76;
 }
 

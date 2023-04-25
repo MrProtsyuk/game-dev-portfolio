@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: antiquewhite;
+    background-image: url("./images/layered-waves-haikei2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    padding: 200px 200px;
+    text-align: center;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1250ms;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #4D5C76;
+    transition: 300ms;
+}
+
+iframe {
+    height: 300px;
+    width: 700px;
+}
+
+.about-text {
+    color: white;
+    background-color: #2e3643;
+    height: auto;
+    width: 800px;
+    padding: 20px;
+    margin: 4px;
+    border: transparent;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px #000;
+}
+
+.down {
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    margin: 10px;
+    border-color: #202731;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px #000;
+}
+
+.down a{
+    text-decoration: none;
+    color: #202731;
+}
+
+.down a:hover{
+    color: antiquewhite;
+}
+
+.down:hover {
+    background-color: #202731;
+    color: antiquewhite;
+}
+
+@media screen and (max-width: 1240px) {
+    .about-text {
+        color: white;
+        background-color: #2e3643;
+        height: auto;
+        width: 600px;
+        padding: 8px;
+        margin: 4px;
+        border: transparent;
+        border-radius: 4px;
+        box-shadow: 4px 4px 10px #000;
+    }
+
+    iframe {
+        height: 300px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about-text {
+        color: white;
+        background-color: #2e3643;
+        height: auto;
+        width: 550px;
+        padding: 8px;
+        margin: 4px;
+        border: transparent;
+        border-radius: 4px;
+        box-shadow: 4px 4px 10px #000;
+    }
+
+    iframe {
+        height: 200px;
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .about-text {
+        color: white;
+        background-color: #2e3643;
+        height: auto;
+        width: 300px;
+        padding: 8px;
+        margin: 4px;
+        border: transparent;
+        border-radius: 4px;
+        box-shadow: 4px 4px 10px #000;
+    }
+
+    iframe {
+        height: 150px;
+        width: 300px;
+    }
+
+    .down{
+        background-color: rgb(240, 240, 240);
+        width: 200px;
+        padding: 5px;
+        margin: 10px;
+        border-color: #202731;
+        border-radius: 6px;
+        box-shadow: 4px 4px 10px #000;
+    }
+}
